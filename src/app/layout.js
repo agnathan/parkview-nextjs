@@ -35,6 +35,14 @@ export default function RootLayout ({ children }) {
         <meta property='og:url' content='https://www.parkviewlincoln.com/' />
         <meta property='og:site_name' content='Parkview Apartments' />
         <meta name='twitter:card' content='summary_large_image' />
+        <link
+          data-minify='1'
+          rel='stylesheet'
+          id='font-awesome-css'
+          href='./css/font-awesome.min.css'
+          type='text/css'
+          media='all'
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
