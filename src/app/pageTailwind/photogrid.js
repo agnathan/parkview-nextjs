@@ -30,7 +30,10 @@ const photos = [
 
 const PhotoGrid = () => {
   return (
-    <div id='photos' className='container mx-auto flex max-w-7xl bg-white p-4'>
+    <div
+      id='photos'
+      className='container mx-auto flex max-w-7xl bg-white p-4 my-16'
+    >
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4'>
         {photos.map(photo => (
           <div key={photo.id} className='overflow-hidden rounded-lg shadow-lg'>

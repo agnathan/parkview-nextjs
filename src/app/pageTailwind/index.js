@@ -9,6 +9,9 @@ import Units from './units'
 import Amenities from './amenities'
 import Footer from './footer'
 import CtaFacebook from './ctaFacebook'
+import ImageWithStats from './imageWithStats'
+import Message from './message'
+import GetInTouch from './getInTouch'
 
 export default function Home () {
   return (
@@ -22,8 +25,11 @@ export default function Home () {
 
       <Amenities />
       <PhotoGrid />
+      <Message message='Welcome to Our Neighborhood' />
+      <ImageWithStats />
       {/* <ImageTile /> */}
       {/* <MapComponent /> */}
+      {/* <GetInTouch /> */}
       <Footer />
     </div>
   )
