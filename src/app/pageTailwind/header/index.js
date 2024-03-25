@@ -4,10 +4,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' }
+  { name: 'Floor Plans', href: '#' },
+  { name: 'Photos', href: '#' },
+  { name: 'Map', href: '#' },
+  { name: 'Apply Now', href: '#' }
 ]
 
 export default function Example () {
@@ -20,10 +20,10 @@ export default function Example () {
         aria-label='Global'
       >
         <a href='#' className='-m-1.5 p-1.5'>
-          <span className='sr-only'>Your Company</span>
+          <span className='sr-only'>Parkview Apartments</span>
           <img
             className='h-8 w-auto'
-            src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+            src='/images/logos/Parkview-Apartments-logo-300x168.png'
             alt=''
           />
         </a>
@@ -65,7 +65,7 @@ export default function Example () {
               <span className='sr-only'>Your Company</span>
               <img
                 className='h-8 w-auto'
-                src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+                src='/images/logos/Parkview-Apartments-logo-300x168.png'
                 alt=''
               />
             </a>
