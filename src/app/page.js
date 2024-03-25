@@ -1,5 +1,5 @@
-import Image from 'next/image'
+import Page from './pageTailwind'
 
 export default function Home () {
-  return <h1>Hello, Firebase!</h1>
+  return <Page />
 }

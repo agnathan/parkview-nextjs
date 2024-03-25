@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/parkview-website"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"nuxt.isNuxtApp": false
+	}
+}
