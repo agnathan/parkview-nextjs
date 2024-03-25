@@ -4,7 +4,7 @@ const Cta = () => {
       className='relative bg-fixed bg-cover bg-no-repeat bg-center h-screen'
       style={{ backgroundImage: "url('/images/photos/slide.jpg')" }}
     >
-      <div className='absolute inset-0 bg-black opacity-50'></div>
+      <div className='absolute inset-0 bg-black opacity-30'></div>
 
       <div className='absolute inset-0 flex items-center justify-start'>
         <div className='ml-6 lg:ml-12 text-white'>

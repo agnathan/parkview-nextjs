@@ -70,7 +70,7 @@ const features2 = [
 ]
 export default function Units () {
   return (
-    <div className='bg-gray-50'>
+    <div id='floorplans' className='bg-gray-50'>
       <div className='mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8'>
         {/* Details section */}
         <section aria-labelledby='details-heading'>
@@ -92,7 +92,7 @@ export default function Units () {
             <div>
               <dt>
                 <dl className='mt-10 max-w-xl space-y-4 text-base leading-7 text-gray-600 lg:max-w-none'>
-                  <div className='container mx-auto p-4 px-32'>
+                  <div className='container mx-auto p-4 px-20'>
                     <ul className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                       {features.map((feature, index) => (
                         <li
@@ -115,16 +115,16 @@ export default function Units () {
                   className='h-full w-full object-cover object-center'
                 />
               </div>
-              <p className='mt-8 text-base text-gray-500'>
+              {/* <p className='mt-8 text-base text-gray-500'>
                 The 20L model has enough space for 370 candy bars, 6 cylinders
                 of chips, 1220 standard gumballs, or any combination of
                 on-the-go treats that your heart desires. Yes, we did the math.
-              </p>
+              </p> */}
             </div>
             <div>
               <dt>
                 <dl className='mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none'>
-                  <div className='container mx-auto p-4 px-32'>
+                  <div className='container mx-auto p-4 px-20'>
                     <ul className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                       {features2.map((feature, index) => (
                         <li
@@ -147,11 +147,11 @@ export default function Units () {
                   className='h-full w-full object-cover object-center'
                 />
               </div>
-              <p className='mt-8 text-base text-gray-500'>
+              {/* <p className='mt-8 text-base text-gray-500'>
                 Up your snack organization game with multiple compartment
                 options. The quick-access stash pouch is ready for even the most
                 unexpected snack attacks and sharing needs.
-              </p>
+              </p> */}
             </div>
           </div>
         </section>

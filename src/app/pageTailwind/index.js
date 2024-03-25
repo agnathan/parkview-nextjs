@@ -7,18 +7,21 @@ import ImageTile from './imageTitle'
 import PhotoGrid from './photogrid'
 import Units from './units'
 import Amenities from './amenities'
+// import MapComponent from './map'
 
 export default function Home () {
   return (
-    <>
+    <div className='bg-white'>
       <Header />
-      <Amenities />
       <Cta />
-      <Units />
       <Statement />
-      <PhotoGrid />
-      <ImageTile />
       <ImageDetails />
-    </>
+      <Units />
+
+      <Amenities />
+      <PhotoGrid />
+      {/* <ImageTile /> */}
+      {/* <MapComponent /> */}
+    </div>
   )
 }

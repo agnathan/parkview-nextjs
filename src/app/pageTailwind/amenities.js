@@ -80,9 +80,11 @@ const Amenities = () => {
             Amenities
           </p>
           <p className='mt-6 text-lg leading-8 text-gray-300'>
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-            Suspendisse eget egestas a elementum pulvinar et feugiat blandit at.
-            In mi viverra elit nunc.
+            Discover the comfort of living with our apartments featuring modern
+            amenities like dishwashers, ceiling fans, and high-speed internet
+            access. Enjoy the convenience of on-site laundry, pet-friendly
+            policies, and 24-hour maintenance, all within a stone's throw of
+            serene parks and vibrant community life.
           </p>
         </div>
         <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>
