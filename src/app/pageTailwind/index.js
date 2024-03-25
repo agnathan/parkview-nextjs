@@ -7,7 +7,8 @@ import ImageTile from './imageTitle'
 import PhotoGrid from './photogrid'
 import Units from './units'
 import Amenities from './amenities'
-// import MapComponent from './map'
+import Footer from './footer'
+import CtaFacebook from './ctaFacebook'
 
 export default function Home () {
   return (
@@ -16,12 +17,14 @@ export default function Home () {
       <Cta />
       <Statement />
       <ImageDetails />
+      <CtaFacebook />
       <Units />
 
       <Amenities />
       <PhotoGrid />
       {/* <ImageTile /> */}
       {/* <MapComponent /> */}
+      <Footer />
     </div>
   )
 }
