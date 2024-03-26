@@ -9,7 +9,7 @@ const stats = [
 
 export default function ImageWithStats () {
   return (
-    <div className='relative bg-white'>
+    <div id='neighborhood' className='relative bg-white'>
       <img
         className='h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2'
         src='/images/neighborhood/UNL-Memorial-Stadium-East-Expansion-1-scaled-2566330847.jpg'

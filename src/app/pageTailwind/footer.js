@@ -97,30 +97,30 @@ const navigation = {
 export default function Example () {
   return (
     <footer>
-      <div class='bg-gray-800 py-4 text-gray-100'>
-        <div class='container px-4 mx-auto'>
-          <div class='-mx-4 flex flex-wrap justify-between'>
-            <div class='px-4 my-4 w-full xl:w-1/5'>
-              <a href='/' class='block w-56 mb-10'>
-                <img src='http://localhost:3000/images/logos/Parkview-Apartments-logo-white.png' />
+      <div className='bg-gray-800 py-4 text-gray-100'>
+        <div className='container px-4 mx-auto'>
+          <div className='-mx-4 flex flex-wrap justify-between'>
+            <div className='px-4 my-4 w-full xl:w-1/5'>
+              <a href='/' className='block w-56 mb-10'>
+                <img src='/images/logos/Parkview-Apartments-logo-white.png' />
               </a>
-              <p class='text-justify'>
+              <p className='text-justify'>
                 Parkview Apartments looks forward to meeting you and we hope
                 that you will consider us for your next place to live.
               </p>
             </div>
 
-            <div class='px-4 my-4 w-full sm:w-auto'>
+            <div className='px-4 my-4 w-full sm:w-auto'>
               <div>
-                <h2 class='inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600'>
+                <h2 className='inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600'>
                   Company
                 </h2>
               </div>
-              <ul class='leading-8'>
+              <ul className='leading-8'>
                 <li>
                   <a
                     href='https://www.npdodgemanagement.com/'
-                    class='hover:text-blue-400'
+                    className='hover:text-blue-400'
                   >
                     Property Management
                   </a>
@@ -128,7 +128,7 @@ export default function Example () {
                 <li>
                   <a
                     href='https://www.npdodgemanagement.com/accessibility'
-                    class='hover:text-blue-400'
+                    className='hover:text-blue-400'
                   >
                     Accessibility
                   </a>
@@ -136,7 +136,7 @@ export default function Example () {
                 <li>
                   <a
                     href='https://www.npdodgemanagement.com/privacy-policy'
-                    class='hover:text-blue-400'
+                    className='hover:text-blue-400'
                   >
                     Privacy Policy
                   </a>
@@ -144,20 +144,20 @@ export default function Example () {
                 <li>
                   <a
                     href='mailto:contact@npdodge.com'
-                    class='hover:text-blue-400'
+                    className='hover:text-blue-400'
                   >
                     Contact Us
                   </a>
                 </li>
               </ul>
             </div>
-            <div class='px-4 my-4 w-full sm:w-auto'>
+            <div className='px-4 my-4 w-full sm:w-auto'>
               <div>
-                <h2 class='inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600'>
+                <h2 className='inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600'>
                   Address
                 </h2>
               </div>
-              <ul class='leading-8'>
+              <ul className='leading-8'>
                 <li>
                   <div className='flex gap-x-4'>
                     <dt className='flex-none'>
@@ -214,18 +214,18 @@ export default function Example () {
                 </li>
               </ul>
             </div>
-            <div class='px-4 my-4 w-full sm:w-auto xl:w-1/5'>
+            <div className='px-4 my-4 w-full sm:w-auto xl:w-1/5'>
               <div>
-                <h2 class='inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600'>
+                <h2 className='inline-block text-2xl pb-4 mb-4 border-b-4 border-blue-600'>
                   Connect With Us
                 </h2>
               </div>
               <a
                 href='https://www.facebook.com/profile.php?id=61557014466724'
-                class='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
+                className='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
               >
                 <svg
-                  class='w-4 h-4 fill-current'
+                  className='w-4 h-4 fill-current'
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 320 512'
                 >
@@ -234,10 +234,10 @@ export default function Example () {
               </a>
               {/* <a
                 href='#'
-                class='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
+                className='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
               >
                 <svg
-                  class='w-4 h-4 fill-current'
+                  className='w-4 h-4 fill-current'
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 512 512'
                 >
@@ -246,10 +246,10 @@ export default function Example () {
               </a>
               <a
                 href='#'
-                class='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
+                className='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
               >
                 <svg
-                  class='w-4 h-4 fill-current'
+                  className='w-4 h-4 fill-current'
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 448 512'
                 >
@@ -258,10 +258,10 @@ export default function Example () {
               </a>
               <a
                 href='#'
-                class='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
+                className='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
               >
                 <svg
-                  class='w-4 h-4 fill-current'
+                  className='w-4 h-4 fill-current'
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 496 512'
                 >
@@ -270,10 +270,10 @@ export default function Example () {
               </a>
               <a
                 href='#'
-                class='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400'
+                className='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full hover:text-blue-400 hover:border-blue-400'
               >
                 <svg
-                  class='w-4 h-4 fill-current'
+                  className='w-4 h-4 fill-current'
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 576 512'
                 >
@@ -284,10 +284,10 @@ export default function Example () {
           </div>
         </div>
       </div>
-      <div class='bg-indigo-700 py-2 text-xs text-gray-100'>
-        <div class='container mx-auto px-4'>
-          <div class='-mx-4 flex flex-wrap justify-between'>
-            <div class='px-4 w-full text-center sm:w-auto sm:text-left'>
+      <div className='bg-indigo-700 py-2 text-xs text-gray-100'>
+        <div className='container mx-auto px-4'>
+          <div className='-mx-4 flex flex-wrap justify-between'>
+            <div className='px-4 w-full text-center sm:w-auto sm:text-left'>
               Copyright © 2024 Parkview Apartments. All Rights Reserved.
             </div>
           </div>

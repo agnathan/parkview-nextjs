@@ -1,13 +1,18 @@
 'use client'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import {
+  Bars3Icon,
+  XMarkIcon,
+  PhoneIcon,
+  CreditCardIcon
+} from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Floor Plans', href: '#floorplans' },
-  { name: 'Photos', href: '#photos' }
-  // { name: 'Map', href: '#' },
-  // { name: 'Apply Now', href: '#' }
+  { name: 'Photos', href: '#photos' },
+  { name: 'Amenitites', href: '#amenities' },
+  { name: 'Neighborhood', href: '#neighborhood' }
 ]
 
 export default function Example () {
@@ -16,13 +21,13 @@ export default function Example () {
   return (
     <header className='bg-white'>
       <nav
-        className='mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8'
+        className='mx-auto flex max-w-7xl items-center justify-between p-2'
         aria-label='Global'
       >
         <a href='#' className='-m-1.5 p-1.5'>
           <span className='sr-only'>Parkview Apartments</span>
           <img
-            className='h-10 w-auto'
+            className='h-14 w-auto'
             src='/images/logos/Parkview-Apartments-logo-300x168.png'
             alt=''
           />
@@ -37,18 +42,30 @@ export default function Example () {
             <Bars3Icon className='h-6 w-6' aria-hidden='true' />
           </button>
         </div>
-        <div className='hidden lg:flex lg:gap-x-12'>
+        <div className='hidden items-center lg:flex lg:gap-x-12'>
           {navigation.map(item => (
             <a
               key={item.name}
               href={item.href}
-              className='text-sm font-semibold leading-6 text-gray-900'
+              className='text-sm align-middle font-semibold leading-6 text-gray-900'
             >
               {item.name}
             </a>
           ))}
-          <a href='#' className='text-sm font-semibold leading-6 text-gray-900'>
-            Call us (402) 607-1740
+          <a
+            href='#'
+            className='text-sm inline-flex items-center justify-center font-semibold leading-6 text-gray-900'
+          >
+            <PhoneIcon className='-ml-0.5 h-5 w-5' aria-hidden='true' /> (402)
+            607-1740
+          </a>
+
+          <a
+            href='https://npdodge.appfolio.com/connect/users/sign_in?a=cw'
+            className='inline-flex items-center gap-x-2 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+          >
+            <CreditCardIcon className='-ml-0.5 h-5 w-5' aria-hidden='true' />
+            Pay Rent
           </a>
         </div>
       </nav>
@@ -91,12 +108,24 @@ export default function Example () {
                   </a>
                 ))}
               </div>
-              <div className='py-6'>
+              {/* <div className='py-6'>
                 <a
                   href='#'
                   className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                 >
                   Log in
+                </a>
+              </div> */}
+              <div className='py-6'>
+                <a
+                  href='https://npdodge.appfolio.com/connect/users/sign_in?a=cw'
+                  className='inline-flex items-center gap-x-2 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                >
+                  <CreditCardIcon
+                    className='-ml-0.5 h-5 w-5'
+                    aria-hidden='true'
+                  />
+                  Pay Rent
                 </a>
               </div>
             </div>

@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Header from './header'
 import Statement from './statement'
 import Cta from './cta'
-import ImageDetails from './imageDetails'
+import WelcomeHome from './welcomeHome'
 import ImageTile from './imageTitle'
 import PhotoGrid from './photogrid'
-import Units from './units'
+import Floorplans from './floorplans'
 import Amenities from './amenities'
 import Footer from './footer'
 import CtaFacebook from './ctaFacebook'
@@ -19,9 +19,9 @@ export default function Home () {
       <Header />
       <Cta />
       <Statement />
-      <ImageDetails />
+      <WelcomeHome />
       <CtaFacebook />
-      <Units />
+      <Floorplans />
 
       <Amenities />
       <PhotoGrid />
