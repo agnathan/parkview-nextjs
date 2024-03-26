@@ -68,7 +68,7 @@ const features2 = [
     icon: CheckCircleIcon
   }
 ]
-export default function Units () {
+export default function FloorPlans () {
   return (
     <div id='floorplans' className='bg-gray-50'>
       <div className='mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8'>

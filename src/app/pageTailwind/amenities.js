@@ -6,74 +6,36 @@ import {
 } from '@heroicons/react/20/solid'
 
 const amenities1 = [
-  {
-    text: 'Large Living Spaces'
-  },
-  {
-    text: 'Dishwasher'
-  },
-  {
-    text: 'Breakfast Bar'
-  },
-  {
-    text: 'Ceiling Fans'
-  },
-  {
-    text: 'Oversized Closets'
-  },
-  {
-    text: 'High-Speed Internet Access'
-  },
-  {
-    text: 'Open Concept'
-  }
+  { id: 1, text: 'Large Living Spaces' },
+  { id: 2, text: 'Dishwasher' },
+  { id: 3, text: 'Breakfast Bar' },
+  { id: 4, text: 'Ceiling Fans' },
+  { id: 5, text: 'Oversized Closets' },
+  { id: 6, text: 'High-Speed Internet Access' },
+  { id: 7, text: 'Open Concept' }
 ]
 
 const amenities2 = [
-  {
-    text: 'On-Site Laundry on Every Floor'
-  },
-  {
-    text: 'Garages Available'
-  },
-  {
-    text: 'Controlled Access'
-  },
-  {
-    text: 'Package Service'
-  },
-  {
-    text: 'Manager On-Site'
-  },
-  {
-    text: '24-Hour Emergency Maintenance'
-  },
-  {
-    text: 'Close to Parks'
-  }
+  { id: 1, text: 'On-Site Laundry on Every Floor' },
+  { id: 2, text: 'Garages Available' },
+  { id: 3, text: 'Controlled Access' },
+  { id: 4, text: 'Package Service' },
+  { id: 5, text: 'Manager On-Site' },
+  { id: 6, text: '24-Hour Emergency Maintenance' },
+  { id: 7, text: 'Close to Parks' }
 ]
 
 const amenities3 = [
-  {
-    text: 'Dogs & Cats Allowed'
-  },
-  {
-    text: '$500 Pet Fee'
-  },
-  {
-    text: '$25 Monthly Pet Rent'
-  },
-  {
-    text: '2 Pet Limit'
-  },
-  {
-    text: '25 lb Weight Limit'
-  }
+  { id: 1, text: 'Dogs & Cats Allowed' },
+  { id: 2, text: '$500 Pet Fee' },
+  { id: 3, text: '$25 Monthly Pet Rent' },
+  { id: 4, text: '2 Pet Limit' },
+  { id: 5, text: '25 lb Weight Limit' }
 ]
 
 const Amenities = () => {
   return (
-    <div className='bg-gray-800 py-24 sm:py-32'>
+    <div id='amenities' className='bg-gray-800 py-24 sm:py-32'>
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
         <div className='mx-auto max-w-2xl text-center'>
           <p className='mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl'>
@@ -93,7 +55,7 @@ const Amenities = () => {
               <h3 className='text-2xl font-bold mb-4'>Everything You Need</h3>
               <ul>
                 {amenities1.map(amenity => (
-                  <li className='flex'>
+                  <li key={amenity.id} className='flex py-2'>
                     <CheckIcon
                       className='h-5 w-5 text-indigo-400 mr-2'
                       aria-hidden='true'
@@ -109,7 +71,7 @@ const Amenities = () => {
               </h3>
               <ul>
                 {amenities2.map(amenity => (
-                  <li className='flex'>
+                  <li key={amenity.id} className='flex py-2'>
                     <CheckIcon
                       className='h-5 w-5 text-indigo-400 mr-2'
                       aria-hidden='true'
@@ -123,7 +85,7 @@ const Amenities = () => {
               <h3 className='text-2xl font-bold mb-4'>We Are Pet-Friendly</h3>
               <ul>
                 {amenities3.map(amenity => (
-                  <li className='flex'>
+                  <li key={amenity.id} className='flex py-2'>
                     <CheckIcon
                       className='h-5 w-5 text-indigo-400 mr-2'
                       aria-hidden='true'
@@ -144,45 +106,3 @@ const Amenities = () => {
 }
 
 export default Amenities
-
-{
-  /* <div className='grid grid-cols-3 gap-4 amenities'>
-        <div className='col one-third'>
-          <h3>Everything You Need</h3>
-          <ul style={{ 'list-style-type': 'check' }}>
-            <li>Large Living Spaces</li>
-            <li>Dishwasher</li>
-            <li>Breakfast Bar</li>
-            <li>Ceiling Fans</li>
-            <li>Oversized Closets</li>
-            <li>High-Speed Internet Access</li>
-            <li>Open Concept</li>
-          </ul>
-        </div>
-        <div className='col one-third'>
-          <h3>You’ll Love Living Here!</h3>
-          <ul style={{ 'list-style-type': 'heart' }}>
-            <li>On-Site Laundry on Every Floor</li>
-            <li>Garages Available</li>
-            <li>Controlled Access</li>
-            <li>Package Service</li>
-            <li>Manager On-Site</li>
-            <li>24-Hour Emergency Maintenance</li>
-            <li>Close to Parks</li>
-          </ul>
-        </div>
-        <div className='col one-third'>
-          <h3>We Are Pet-Friendly</h3>
-          <ul style={{ 'list-style-type': 'thumbs-up' }}>
-            <li>Dogs &amp; Cats Allowed</li>
-            <li>$500 Pet Fee</li>
-            <li>$25 Monthly Pet Rent</li>
-            <li>2 Pet Limit</li>
-            <li>25 lb Weight Limit</li>
-          </ul>
-          <p>
-            <em>* Please call for more information.</em>
-          </p>
-        </div>{' '}
-      </div> */
-}
