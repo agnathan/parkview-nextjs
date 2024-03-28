@@ -55,11 +55,10 @@ export default function Example () {
             </Link>
           ))}
           <a
-            href='#'
+            href='tel:4026171740'
             className='text-sm inline-flex items-center justify-center font-semibold leading-6 text-gray-900'
           >
-            <PhoneIcon className='-ml-0.5 h-5 w-5' aria-hidden='true' /> (402)
-            607-1740
+            <PhoneIcon className='-ml-0.5 h-5 w-5' aria-hidden='true' /> 402-617-1740
           </a>
 
           <a
