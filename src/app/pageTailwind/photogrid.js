@@ -5,24 +5,24 @@ const photos = [
   {
     id: 1,
     name: 'Exterior',
-    url: '/images/photos/exterior2-1024x683.jpg'
+    url: '/images/photos/exterior.webp'
   },
 
-  { id: 2, name: 'Bathroom', url: '/images/photos/bathroom-1024x683.jpg' },
-  { id: 3, name: 'Bedroom', url: '/images/photos/bedroom2-1024x683.jpg' },
-  { id: 4, name: 'Dinning Room', url: '/images/photos/dining-1024x683.jpg' },
+  { id: 2, name: 'Bathroom', url: '/images/photos/bathroom.webp' },
+  { id: 3, name: 'Bedroom', url: '/images/photos/bedroom2.webp' },
+  { id: 4, name: 'Dinning Room', url: '/images/photos/dining.webp' },
 
-  { id: 5, name: 'Kitchen', url: '/images/photos/kitchen-1024x683.jpg' },
-  { id: 6, name: 'Kitchen', url: '/images/photos/kitchen2-1024x683.jpg' },
+  { id: 5, name: 'Kitchen', url: '/images/photos/kitchen.webp' },
+  { id: 6, name: 'Kitchen', url: '/images/photos/kitchen2.webp' },
   {
     id: 7,
     name: 'Living Room',
-    url: '/images/photos/living-room-1024x683.jpg'
+    url: '/images/photos/living-room.webp'
   },
   {
     id: 8,
     name: 'Living Room',
-    url: '/images/photos/living-room2-1024x683.jpg'
+    url: '/images/photos/living-room2.webp'
   }
 
   // ... more photos
