@@ -38,6 +38,7 @@ export default function RootLayout ({ children }) {
         <meta property='og:url' content='https://www.parkviewlincoln.com/' />
         <meta property='og:site_name' content='Parkview Apartments' />
         <meta name='twitter:card' content='summary_large_image' />
+
         <link
           data-minify='1'
           rel='stylesheet'
