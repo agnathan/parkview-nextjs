@@ -18,7 +18,7 @@ const Cta = () => {
             href='/listings'
             className='inline-block bg-blue-500 py-3 px-6 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300'
           >
-            View Listings
+            See Available Units
           </Link>
         </div>
       </div>
