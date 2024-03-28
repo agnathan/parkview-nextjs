@@ -41,7 +41,7 @@ export default function ImageDetails () {
       <section aria-labelledby='features-heading' className='relative'>
         <div className='aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16'>
           <img
-            src='/images/photos/slide.jpg'
+            src='/images/photos/slide.webp'
             alt='Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen.'
             className='h-full w-full object-cover object-center lg:h-full lg:w-full'
           />

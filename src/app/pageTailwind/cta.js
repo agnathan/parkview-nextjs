@@ -4,7 +4,7 @@ const Cta = () => {
   return (
     <div
       className='relative bg-fixed bg-cover bg-no-repeat bg-center h-screen'
-      style={{ backgroundImage: "url('/images/photos/slide.jpg')" }}
+      style={{ backgroundImage: "url('/images/photos/slide.webp')" }}
     >
       <div className='absolute inset-0 bg-black opacity-30'></div>
 
