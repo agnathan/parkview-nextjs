@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import {
@@ -12,7 +13,8 @@ const navigation = [
   { name: 'Floor Plans', href: '#floorplans' },
   { name: 'Photos', href: '#photos' },
   { name: 'Amenitites', href: '#amenities' },
-  { name: 'Neighborhood', href: '#neighborhood' }
+  { name: 'Neighborhood', href: '#neighborhood' },
+  { name: 'View Listings', href: '/listings' }
 ]
 
 export default function Example () {
@@ -44,13 +46,13 @@ export default function Example () {
         </div>
         <div className='hidden items-center lg:flex lg:gap-x-12'>
           {navigation.map(item => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className='text-sm align-middle font-semibold leading-6 text-gray-900'
             >
               {item.name}
-            </a>
+            </Link>
           ))}
           <a
             href='#'

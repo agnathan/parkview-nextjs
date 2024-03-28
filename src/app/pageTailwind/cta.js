@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Cta = () => {
   return (
     <div
@@ -12,12 +14,12 @@ const Cta = () => {
           <p className='text-lg mb-8'>
             A Community near Convenient Locations and Wide Open Spaces
           </p>
-          {/* <a
-            href='#'
+          <Link
+            href='/listings'
             className='inline-block bg-blue-500 py-3 px-6 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300'
           >
-            Get Started
-          </a> */}
+            View Listings
+          </Link>
         </div>
       </div>
     </div>
