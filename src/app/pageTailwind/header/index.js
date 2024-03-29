@@ -109,14 +109,14 @@ export default function Example () {
                   </a>
                 ))}
               </div>
-              {/* <div className='py-6'>
+              <div className='py-6'>
                 <a
-                  href='#'
-                  className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                  href='tel:4026171740'
+                  className='text-sm inline-flex items-center justify-center font-semibold leading-6 text-gray-900'
                 >
-                  Log in
+                  <PhoneIcon className='-ml-0.5 h-5 w-5' aria-hidden='true' /> 402-617-1740
                 </a>
-              </div> */}
+              </div>
               <div className='py-6'>
                 <a
                   href='https://npdodge.appfolio.com/connect/users/sign_in?a=cw'
