@@ -143,10 +143,21 @@ export default function Example () {
                 </li>
                 <li>
                   <a
-                    href='mailto:contact@npdodge.com'
+                    href='https://www.hud.gov/program_offices/fair_housing_equal_opp'
                     className='hover:text-blue-400'
                   >
                     Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href='mailto:contact@npdodge.com'
+                    className='hover:text-blue-400'
+                  >
+                    <img
+                      className='h-16'
+                      src='/images/icons/fair-housing-white.png'
+                    />
                   </a>
                 </li>
               </ul>
