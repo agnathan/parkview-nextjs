@@ -243,6 +243,14 @@ export default function Example () {
                   <path d='M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z'></path>
                 </svg>
               </a>
+              <a href='#'>
+                <img
+                  className='pt-4'
+                  height='67'
+                  width='144'
+                  src='/images/logos/Primary_NPD_Management_3c.jpg'
+                />
+              </a>
               {/* <a
                 href='#'
                 className='inline-flex items-center justify-center h-8 w-8 border border-gray-100 rounded-full mr-1 hover:text-blue-400 hover:border-blue-400'
