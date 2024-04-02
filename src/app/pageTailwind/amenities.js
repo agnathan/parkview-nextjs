@@ -60,7 +60,7 @@ const Amenities = () => {
                       className='h-5 w-5 text-indigo-400 mr-2'
                       aria-hidden='true'
                     />
-                    <span>{amenity.text}</span>
+                    <span className='text-white'>{amenity.text}</span>
                   </li>
                 ))}
               </ul>
@@ -76,7 +76,7 @@ const Amenities = () => {
                       className='h-5 w-5 text-indigo-400 mr-2'
                       aria-hidden='true'
                     />
-                    <span>{amenity.text}</span>
+                    <span className='text-white'>{amenity.text}</span>
                   </li>
                 ))}
               </ul>
@@ -90,7 +90,7 @@ const Amenities = () => {
                       className='h-5 w-5 text-indigo-400 mr-2'
                       aria-hidden='true'
                     />
-                    <span>{amenity.text}</span>
+                    <span className='text-white'>{amenity.text}</span>
                   </li>
                 ))}
               </ul>
