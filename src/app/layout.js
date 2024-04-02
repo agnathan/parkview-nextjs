@@ -1,3 +1,4 @@
+import { analytics } from './config/firebase'
 import { Roboto } from 'next/font/google'
 import './globals.css'
 
@@ -13,6 +14,8 @@ export const metadata = {
 }
 
 export default function RootLayout ({ children }) {
+  logEvent(analytics, 'notification_received')
+  console.log('hello, world')
   return (
     <html lang='en'>
       <head>
