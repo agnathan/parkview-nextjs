@@ -1,11 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app'
-import { getAnalytics } from 'firebase/analytics'
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { getAnalytics, isSupported } from 'firebase/analytics'
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: 'AIzaSyDAIZzAGszVy9m5gLQT-Ud5BTydsVMHWhc',
   authDomain: 'parkview-website.firebaseapp.com',
@@ -17,22 +13,16 @@ const firebaseConfig = {
 }
 
 // Initialize Firebase
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig)
-}
+const app = initializeApp(firebaseConfig)
+let analytics
 
-// Firestore exports
-export const firestore = firebase.firestore()
-export const serverTimestamp = firebase.firestore.FieldValue.serverTimestamp
-export const fbTimestamp = firebase.firestore.Timestamp
-export const fromMillis = firebase.firestore.Timestamp.fromMillis
-export const increment = firebase.firestore.FieldValue.increment
-
-export const analytics = () => {
-  if (typeof window !== 'undefined') {
-    return firebase.analytics()
-  } else {
-    return null
-  }
+if (typeof window !== 'undefined') {
+  isSupported().then(supported => {
+    if (supported) {
+      analytics = getAnalytics(app)
+    } else {
+      console.log('Firebase Analytics is not supported in this environment.')
+    }
+  })
 }
-export default firebase
+export { app, analytics }
