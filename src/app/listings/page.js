@@ -1,3 +1,4 @@
+'use client'
 import Page from '../pageTailwind'
 import AppfolioWidget from '../pageTailwind/appfolioWidget'
 import Header from '../pageTailwind/header'

@@ -1,3 +1,4 @@
+'use client'
 Appfolio = {
   Listing: function (config) {
     var defaultConfig = {
