@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Roboto } from 'next/font/google'
 import './globals.css'
 
@@ -49,6 +50,7 @@ export default function RootLayout ({ children }) {
         />
       </head>
       <body className={inter.className}>{children}</body>
+      <GoogleAnalytics gaId='G-W8R9YJBGTE' />
     </html>
   )
 }
